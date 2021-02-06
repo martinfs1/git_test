@@ -106,7 +106,16 @@ li a {
     padding: 12px 0 0 20px;
     color: lightgray;
 }
-
+.search-input {
+    border-style: none;
+    cursor: text;
+    width: 73%;
+    font: 400 1.5rem Arial;
+    
+}
+.search-input:focus {
+    outline: none;
+}
 .mic {
     max-width: 15px;
     max-height: 20px;
@@ -248,6 +257,9 @@ span {
     }
     .search-bar {
         width: 38%;
+    }
+    .search-input{
+        width:80%;
     }
     .languages {
         display: flex;
