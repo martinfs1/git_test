@@ -249,14 +249,15 @@ span {
         margin-left: 1rem;
     }
     .main {
-        padding-top: 13%;
+        padding-top: 1%;
     }
     .logo {
         width: 22%;
         height: auto;
     }
     .search-bar {
-        width: 38%;
+        width: 48%;
+        height: 2,5rem;
     }
     .search-input{
         width:80%;
@@ -270,7 +271,8 @@ span {
     .nav-footer {
         display: flex;
         justify-content: space-between;
-        padding-bottom: 0.5rem;
+        padding-bottom: 0.5rem;       
+        
     }
     .navF-1 {
         order: 1;
